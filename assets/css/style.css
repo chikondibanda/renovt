@@ -76,7 +76,8 @@ p {
 */
 
 .navbar-brand img{
-    height: 100px;
+    height: 70px;
+    width: auto;
 }
 
 .header-social ul {
@@ -2293,7 +2294,7 @@ Welcom
     fill: #FFF;
 }
 .welcome-estate h3 {
-    font: 600 14px "Segoe UI  ",sans-serif;
+    font: 600 14px "Segoe UI",sans-serif;
     text-transform: uppercase;
     margin: 20px 0px 0px;
 }
@@ -2370,7 +2371,7 @@ count-area
     padding-bottom: 70px
 }
 .count-item h2 {
-    font: 700 30px "Segoe UI  ",sans-serif;
+    font: 700 30px "Segoe UI ",sans-serif;
     text-align: center;
     margin: 30px 0px 5px;
 }
@@ -2378,7 +2379,7 @@ count-area
     position: absolute;
 }
 .count-item h5 {
-    font: 500 15px "Segoe UI  ",sans-serif;
+    font: 500 15px "Segoe UI ",sans-serif;
     padding: 2px 15px;
     text-transform: uppercase;
     margin: 0px;
@@ -2516,6 +2517,7 @@ count-area
     color: #777;
     border-top: 1px solid #EAEAEA;
     padding: 15px;
+    text-align: left;
 }
 .search-form .form-inline .form-group { 
     width: 235px;
