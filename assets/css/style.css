@@ -2294,7 +2294,9 @@ Welcom
     fill: #FFF;
 }
 .welcome-estate h3 {
-    font: 600 14px "Segoe UI",sans-serif;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
     text-transform: uppercase;
     margin: 20px 0px 0px;
 }
@@ -2371,7 +2373,9 @@ count-area
     padding-bottom: 70px
 }
 .count-item h2 {
-    font: 700 30px "Segoe UI ",sans-serif;
+    font-family: "Segoe UI",sans-serif;
+    font-weight: 700;
+    font-size: 30px;
     text-align: center;
     margin: 30px 0px 5px;
 }
@@ -2379,7 +2383,9 @@ count-area
     position: absolute;
 }
 .count-item h5 {
-    font: 500 15px "Segoe UI ",sans-serif;
+    font-family: "Segoe UI",sans-serif;
+    font-weight: 500;
+    font-size: 15px;
     padding: 2px 15px;
     text-transform: uppercase;
     margin: 0px;
@@ -2426,12 +2432,16 @@ count-area
     margin: 0px 65px 0px 85px;
 }
 .asks-first-info h2 {
-    font: 500 20px "Segoe UI  ",sans-serif;
+    font-family: "Segoe UI",sans-serif;
+    font-weight: 500;
+    font-size: 20px;
     margin: 0px 0px 4px;
     text-transform: uppercase;
 }
 .asks-first-info p {
-    font: 400 13px "Segoe UI  ",sans-serif;
+    font-family: "Segoe UI",sans-serif;
+    font-weight: 400;
+    font-size: 13px;
     margin: 0px;
 }
 .asks-first-arrow{
