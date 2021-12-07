@@ -92,9 +92,8 @@
     .navbar-collapse {
         margin-top: 15px;
     }
-    .navbar-brand img{
-        width: 110px;
-    }
+    
+
     .navbar-default .navbar-nav > li > a {
         font-size: 13px;
     }
@@ -420,8 +419,7 @@
     .navbar-collapse {
         margin-top: 15px;
     }
-    .navbar-brand img {
-        width: 110px;
+    
     }
     .navbar-default .navbar-nav > li > a {
         font-size: 13px;
