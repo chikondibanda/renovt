@@ -227,7 +227,7 @@
     }
     .testimonial .item .client-face {
         right: 15px;
-        top: 100px;
+        top: 80px;
     }
     .footer-copy{
         padding: 0 20px;
@@ -468,7 +468,7 @@
         height:440px;        
     }
     .content-area { 
-        padding-top: 100px;
+        padding-top: 140px;
     }
     #bg-slider .item img {
         height: 440px;
@@ -518,12 +518,10 @@
         font-size: 13px;
     }
     .testimonial .item .client-face {
-        top: 130px;
+        top: 80px;
         right: 25px;
     }
-    .single-footer img {
-        width: 150px;
-    }
+
     .single-footer p {
         font-size: 13px;
     }
@@ -688,11 +686,9 @@
     }
     .testimonial .item .client-face {
         right: 17px;
-        top: 100px;
+        top: 80px;
     }
-    .single-footer img {
-        width: 150px;
-    }
+  
     .single-footer p {
         font-size: 13px;
     }
@@ -758,7 +754,7 @@
     }
     .testimonial .item .client-face {
         right: 29px;
-        top: 125px;
+        top: 100px;
     }
     .client-text p {
         line-height: 22px;
