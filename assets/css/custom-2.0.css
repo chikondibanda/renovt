@@ -2,3 +2,15 @@
 .smo {
 	font-size: 12px;
 }
+
+.action-btn {
+	background: #75533c;
+	border-radius: 2px;
+	font-weight: 600;
+	border: 1px solid #7e563b;
+	font-size: 14px;
+}
+
+.selekt {
+	font-size: 1em;
+}
