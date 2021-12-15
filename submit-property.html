@@ -28,11 +28,13 @@
         <link rel="stylesheet" href="assets/css/owl.carousel.css">  
         <link rel="stylesheet" href="assets/css/owl.theme.css">
         <link rel="stylesheet" href="assets/css/owl.transitions.css">
+        <link rel="stylesheet" href="assets/css/wizard.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
         <link rel="stylesheet" href="assets/css/custom-2.0.css">
     </head>
     <body>
+
 
         <!-- <div id="preloader">
             <div id="status">&nbsp;</div>
@@ -41,31 +43,65 @@
 
         <div class="header-connect">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-5 col-sm-8  col-xs-12">
-                        <div class="header-half header-call">
-                            <p>
-                                <span><i class="pe-7s-call"></i> +1 234 567 7890</span>
-                                <span><i class="pe-7s-mail"></i> your@company.com</span>
+                <div class="row justify-content-between">
+                    <div class="col-md-5">
+                       <!--  <div class="header-half header-call ">
+                            <p class="p-0 row flex-row justify-content-between">
+                                <span class="col"><i class="pe-7s-call"></i> +265 888 765 432</span>
+                                <span class="col"><i class="pe-7s-mail"></i> contact@renovate.com</span>
                             </p>
+                        </div> -->
+
+                        <div class="row justify-content-start">
+                            <div class="col-sm-4">
+                                <div class="d-flex align-items-center">
+                                    <i class="pe-7s-call"></i>
+                                    <span class="px-2">+ 265 888 765 432</span>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="d-flex align-items-center">
+
+                                <i class="pe-7s-mail"></i>
+                                <span class="px-2">contact@renovate.com</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-2 col-md-offset-5  col-sm-3 col-sm-offset-1  col-xs-12">
+                    <div class="col-md-2">
                         <div class="header-half header-social">
-                            <ul class="list-inline">
+                            <ul class="list-inline m-0 d-flex justify-content-evenly">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-vine"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>              
-        <!--End top header -->
+        </div>        
+
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean-button" style=" display:  non;background: var(--bs-white); box-shadow: 0px 1px 1px rgb(227,227,227);">
+            <div class="container"><a class="navbar-brand d-lg-flex align-items-lg-start" href="index.html" style="font-family: 'DM Serif Display', serif;"><img class="d-lg-flex align-items-lg-start" src="assets/img/Logo%2001.png" alt="renovate properties" height="50px" width="100px"></a><button data-bs-toggle="collapse" class="navbar-toggler text-white" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse align-items-end justify-content-between" id="navcol-1">
+                <div class="hiha"></div>
+
+                    <ul class="navbar-nav navbar-nav-scroll">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">HOME</a></li>
+                        <!-- <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="properties.html">PROPERTIES</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="sales.html">SALES</a><a class="dropdown-item" href="properties.html">RENTALS</a></div> 
+                        </li> -->
+                        <li class="nav-item"><a class="nav-link" href="properties.html">PROPERTIES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about-us.html">ABOUT US</a></li>
+                        <li class="nav-item"><a class="nav-link" href="property-management.html">PROPERTY MANAGEMENT<br></a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT US</a></li>
+                    </ul><span class="actions"> <a class="btn text-uppercase action-btn text-white" role="button" href="submit-property.html">List your property</a></span>
+                </div>
+            </div>
+        </nav>  
+        <!-- End of navigation -->
 
         <nav class="navbar navbar-default ">
             <div class="container">
@@ -230,7 +266,7 @@
 
                                     <div class="tab-pane" id="step1">
                                         <div class="row p-b-15  ">
-                                            <h4 class="info-text"> Let's start with the basic information (with validation)</h4>
+                                            <h4 class="info-text text-center"> Let's start with the basic information (with validation)</h4>
                                             <div class="col-sm-4 col-sm-offset-1">
                                                 <div class="picture-container">
                                                     <div class="picture">
@@ -259,10 +295,10 @@
                                     <!--  End step 1 -->
 
                                     <div class="tab-pane" id="step2">
-                                        <h4 class="info-text"> How much your Property is Beautiful ? </h4>
+                                        <h4 class="info-text text-center"> How much your Property is Beautiful ? </h4>
                                         <div class="row">
-                                            <div class="col-sm-12"> 
-                                                <div class="col-sm-12"> 
+                                            <div class="row"> 
+                                                <div class="row"> 
                                                     <div class="form-group">
                                                         <label>Property Description :</label>
                                                         <textarea name="discrition" class="form-control" ></textarea>
@@ -270,7 +306,7 @@
                                                 </div> 
                                             </div>
 
-                                            <div class="col-sm-12">
+                                            <div class="row">
                                                 <div class="col-sm-3">
                                                     <div class="form-group">
                                                         <label>Property State :</label>
@@ -322,7 +358,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-12 padding-top-15">                                                   
+                                            <div class="row padding-top-15">                                                   
                                                 <div class="col-sm-4">
                                                     <div class="form-group">
                                                         <label for="property-geo">Min bed :</label>
@@ -356,7 +392,7 @@
                                                     </div>
                                                 </div>   
                                             </div>
-                                            <div class="col-sm-12 padding-top-15">
+                                            <div class="row padding-top-15">
                                                 <div class="col-sm-3">
                                                     <div class="form-group">
                                                         <div class="checkbox">
@@ -394,7 +430,7 @@
                                                     </div>
                                                 </div> 
                                             </div> 
-                                            <div class="col-sm-12 padding-bottom-15">
+                                            <div class="row padding-bottom-15">
                                                 <div class="col-sm-3">
                                                     <div class="form-group">
                                                         <div class="checkbox">
@@ -438,26 +474,26 @@
                                     <!-- End step 2 -->
 
                                     <div class="tab-pane" id="step3">                                        
-                                        <h4 class="info-text">Give us somme images and videos ? </h4>
+                                        <h4 class="info-text text-center">Give us somme images and videos ? </h4>
                                         <div class="row">  
                                             <div class="col-sm-6">
                                                 <div class="form-group">
-                                                    <label for="property-images">Chose Images :</label>
+                                                    <label for="property-images">Choose Images :</label>
                                                     <input class="form-control" type="file" id="property-images">
-                                                    <p class="help-block">Select multipel images for your property .</p>
+                                                    <p class="help-block">Select multiple images for your property.</p>
                                                 </div>
                                             </div>
                                             <div class="col-sm-6"> 
-                                                <div class="form-group">
+                                                <div class="form-group mb-2">
                                                     <label for="property-video">Property video :</label>
                                                     <input class="form-control" value="" placeholder="http://www.youtube.com, http://vimeo.com" name="property_video" type="text">
                                                 </div> 
 
-                                                <div class="form-group">
+                                                <div class="form-group mb-2">
                                                     <input class="form-control" value="" placeholder="http://www.youtube.com, http://vimeo.com" name="property_video" type="text">
                                                 </div>
 
-                                                <div class="form-group">
+                                                <div class="form-group mb-2">
                                                     <input class="form-control" value="" placeholder="http://www.youtube.com, http://vimeo.com" name="property_video" type="text">
                                                 </div>
                                             </div>
@@ -467,9 +503,9 @@
 
 
                                     <div class="tab-pane" id="step4">                                        
-                                        <h4 class="info-text"> Finished and submit </h4>
+                                        <h4 class="info-text text-center"> Finished and submit </h4>
                                         <div class="row">  
-                                            <div class="col-sm-12">
+                                            <div class="row">
                                                 <div class="">
                                                     <p>
                                                         <label><strong>Terms and Conditions</strong></label>
@@ -651,8 +687,8 @@
 
         </div>
 
-        <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
-        <script src="assets/js//jquery-1.10.2.min.js"></script>
+        <script src="assets/js/modernizr-2.6.2.min.js"></script>
+        <script src="assets/js/jquery-3.6.0.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/bootstrap-select.min.js"></script>
         <script src="assets/js/bootstrap-hover-dropdown.js"></script>

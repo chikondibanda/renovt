@@ -1058,7 +1058,7 @@ label small{
     font-size: 40px; 
     margin-bottom: 20px;
     text-transform: uppercase;
-    color: #a78874;
+    color: #fff;
     font-weight: 600;
 
 }
@@ -1557,6 +1557,7 @@ Asside widgets CSS
 .client-face > img {
     border: 5px solid #fff;
     border-radius: 50%;
+    height: 80px;
 }
 .testimonial .owl-theme .owl-controls .owl-page span{
     background: #a78874
@@ -2402,7 +2403,7 @@ count-area
 }
 
 .asks-first{
-    background-color: rgb(225, 225, 225);
+    background-color: #916b52;
     padding: 35px 0px 35px 30px;
     position: relative;
     cursor: pointer;

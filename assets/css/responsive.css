@@ -518,8 +518,8 @@
         font-size: 13px;
     }
     .testimonial .item .client-face {
-        top: 80px;
-        right: 25px;
+        top: 90px;
+        left: 120px;
     }
 
     .single-footer p {

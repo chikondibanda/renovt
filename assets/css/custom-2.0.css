@@ -14,3 +14,10 @@
 .selekt {
 	font-size: 1em;
 }
+
+
+.search-form .input-control  {
+	width: 30%;
+	border-radius: 3px;
+	margin: 0 .1em;
+}
