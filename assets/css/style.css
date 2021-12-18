@@ -1056,10 +1056,12 @@ label small{
 
 .slider-content h2 {
     font-size: 48px; 
-    margin-bottom: 20px;
+    margin: 70px auto 20px;
     text-transform: uppercase;
     color: #fff;
     font-weight: 600;
+    width: 600px;
+    text-align: center;
 
 }
 

@@ -180,7 +180,7 @@
         width: 30px;
     }
     .page-title{
-        padding-top: 50px;
+        padding-top: 70px;
     }
     .page-title h2 {
         font-size: 20px;
@@ -449,10 +449,7 @@
         margin-left: 0px;
         padding: 25px;
     }
-    .slider-content h2 {
-        font-size: 24px;
-        margin-bottom: 15px;
-    }
+
     .slider-content p {
         font-size: 12px;
         margin-bottom: 50px;
@@ -462,7 +459,8 @@
     }
 
     .slider-content {
-        top: 5%;
+        top: 0%;
+        height: 600px;
     }
     .slider-area{
         height:440px;        
@@ -479,7 +477,7 @@
         width: 30px;
     }
     .page-title{
-        padding-top: 50px;
+        padding-top: 70px;
     }
     .page-title h2 {
         font-size: 20px;
