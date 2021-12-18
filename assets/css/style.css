@@ -1630,6 +1630,7 @@ padding: 0 0 0.5em;
 .padding-top-40{
     padding-top: 40px;
 }
+
 .padding-bottom-40{
     padding-bottom: 40px;
 }
@@ -1981,7 +1982,7 @@ single property page
     text-align: center;
 }
 .single-property-content .lSSlideOuter .lSPager {
-    display: inline-block;
+    display: flex;
 }
 .single-property-content .lSSlideOuter .lSPager li.active, .single-property-content .lSSlideOuter .lSPager li:hover {
     border-radius: 0px;
@@ -2082,6 +2083,8 @@ single property page
 }
 .property-meta{
     padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .property-info-entry .property-info-label {
     font-size: 13px;
@@ -2956,6 +2959,12 @@ ul.footer-blog li {
     height: 60px;
     margin-bottom: 0px;
 }
+
+.footer-blog .blg-entry {
+    padding: 0 1em;
+}
+
+
 .footer-blog .blg-entry h6 a{   
     font-size: 13px;
     text-transform: capitalize;
@@ -2972,8 +2981,9 @@ ul.footer-blog li {
     padding: 2px 3px;
     font-size: 11px;
     position: relative;
-    top: -22px;
+    top: -18px;
     width: 100%;
+    margin-left: .3em;
 }
 .footer-blog .blg-thumb img{
     

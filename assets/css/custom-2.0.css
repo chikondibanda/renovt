@@ -21,3 +21,8 @@
 	border-radius: 3px;
 	margin: 0 .1em;
 }
+
+.footer-blog li {
+	display: flex !important;
+	flex-direction: row;
+}
