@@ -31,7 +31,7 @@
         <link rel="stylesheet" href="assets/css/owl.transitions.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="slick/slick.css">
         <link rel="stylesheet" href="assets/css/custom-2.0.css">
 
     </head>
@@ -46,23 +46,16 @@
         <div class="header-connect">
             <div class="container">
                 <div class="row justify-content-between">
-                    <div class="col-md-5">
-                       <!--  <div class="header-half header-call ">
-                            <p class="p-0 row flex-row justify-content-between">
-                                <span class="col"><i class="pe-7s-call"></i> +265 888 765 432</span>
-                                <span class="col"><i class="pe-7s-mail"></i> contact@renovate.com</span>
-                            </p>
-                        </div> -->
-
+                    <div class="col-md-10">
                         <div class="row justify-content-start">
-                            <div class="col-sm-4">
+                            <div class="col-md-4 col-lg-2">
                                 <div class="d-flex align-items-center">
                                     <i class="pe-7s-call"></i>
                                     <span class="px-2">+ 265 888 765 432</span>
                                 </div>
                             </div>
 
-                            <div class="col-sm-4">
+                            <div class="col-md-2">
                                 <div class="d-flex align-items-center">
 
                                 <i class="pe-7s-mail"></i>
@@ -109,7 +102,7 @@
             <div class="container">
                 <div class="row">
                     <div class="page-head-content">
-                        <h1 class="page-title">Super nice villa </h1>               
+                        <h1 class="page-title">House in Kanjedza</h1>               
                     </div>
                 </div>
             </div>
@@ -123,40 +116,38 @@
                 <div class="clearfix padding-top-40 row">
 
                     <div class="col-md-8 single-property-content prp-style-1 ">
-                        <div class="row">
-                            <div class="light-slide-item">            
-                                <div class="clearfix">
-                                    <div class="favorite-and-print">
-                                        <a class="add-to-fav" href="#login-modal" data-toggle="modal">
-                                            <i class="fa fa-star-o"></i>
-                                        </a>
-                                        <a class="printer-icon " href="javascript:window.print()">
-                                            <i class="fa fa-print"></i> 
-                                        </a>
-                                    </div> 
 
-                                    <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
-                                        <li data-thumb="assets/img/property-1/property1.jpg"> 
-                                            <img src="assets/img/property-1/property1.jpg" />
-                                        </li>
-                                        <li data-thumb="assets/img/property-1/property2.jpg"> 
-                                            <img src="assets/img/property-1/property3.jpg" />
-                                        </li>
-                                        <li data-thumb="assets/img/property-1/property3.jpg"> 
-                                            <img src="assets/img/property-1/property3.jpg" />
-                                        </li>
-                                        <li data-thumb="assets/img/property-1/property4.jpg"> 
-                                            <img src="assets/img/property-1/property4.jpg" />
-                                        </li>                                         
-                                    </ul>
-                                </div>
+                        <!-- slick image gallery -->
+
+                <div class="row">
+                    <div class="col">
+                        <div class="kaya">
+                            <div class="slicked1">
+                                <div class="slickers"><img src="assets/img/property-1/property1.jpg" alt=""></div>
+                                <div class="slickers"><img src="assets/img/demo/property-2.jpg" alt=""></div>
+                                <div class="slickers"><img src="assets/img/demo/property-3.jpg" alt=""></div>
+                                <div class="slickers"><img src="assets/img/demo/property-5.jpg" alt=""></div>
+                                <div class="slickers"><img src="assets/img/demo/property-6.jpg" alt=""></div>
+                            </div>
+                            <div class="slicked2 row">
+                                <div class="slickers col-md-2"><img class="img-fluid" src="assets/img/demo/property-1.jpg" alt=""></div>
+                                <div class="slickers col-md-2"><img src="assets/img/demo/property-2.jpg" alt=""></div>
+                                <div class="slickers col-md-2"><img src="assets/img/demo/property-3.jpg" alt=""></div>
+                                <div class="slickers col-md-2"><img src="assets/img/demo/property-5.jpg" alt=""></div>
+                                <div class="slickers col-md-2"><img src="assets/img/demo/property-6.jpg" alt=""></div>
+                                <div class="slickers col-md-2"><img src="assets/img/demo/property-6.jpg" alt=""></div>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+
+                        <!-- end of slick image gallery -->
 
                         <div class="single-property-wrapper">
-                            <div class="single-property-header">                                          
-                                <h1 class="property-title pull-left">Villa in Coral Gables</h1>
-                                <span class="property-price pull-right">MKW825,000</span>
+                            <div class="single-property-header row justify-content-between">                                          
+                                <h1 class="property-title col-md-8">House for Sale in Kanjedza</h1>
+                                <span class="property-price col-md-4">MKW7,250,000</span>
                             </div>
 
                             <div class="property-meta entry-meta clearfix ">   
@@ -702,7 +693,7 @@
                                         </div>
                                         <div class="col-md-8  col-sm-8 col-xs-8  blg-entry">
                                             <h6> <a href="single.html">5 best places to stay in Malawi </a></h6> 
-                                            <p style="line-height: 17px; padding: 8px 2px;">The warm heart of Africa has many jaw-dropping and amazing scenery. But you might...</p>
+                                            <p style="line-height: 17px; padding: 8px 2px;">The warm heart of Africa has many jaw-dropping and amazing scenery.</p>
                                         </div>
                                     </li> 
 
@@ -767,23 +758,31 @@
         <script src="assets/js/icheck.min.js"></script>
         <script src="assets/js/price-range.js"></script>
         <script type="text/javascript" src="assets/js/lightslider.min.js"></script>
+        <script src="slick/slick.min.js"></script>
         <script src="assets/js/main.js"></script>
 
         <script>
             $(document).ready(function () {
 
-                $('#image-gallery').lightSlider({
-                    gallery: true,
-                    item: 1,
-                    thumbItem: 9,
-                    slideMargin: 0,
-                    speed: 500,
-                    auto: true,
-                    loop: true,
-                    onSliderLoad: function () {
-                        $('#image-gallery').removeClass('cS-hidden');
-                    }
+                // slick time
+
+                $(".slicked1").slick({
+                    slidesToShow: 1,
+                    asNavFor: '.slicked2',
+                    arrows: false
                 });
+
+                $(".slicked2").slick({
+                    slidesToShow: 4,
+                    asNavFor: ".slicked1",
+                    autoplay: true,
+                    arrows: false,
+                    centerMode: true,
+                    focusOnSelect: true,
+                    autoplaySpeed: 3000
+                });
+
+                console.log("Hello chiko! everything right, right?");
             });
         </script>
 

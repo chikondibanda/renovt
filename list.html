@@ -25,6 +25,7 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
         <link rel="stylesheet" href="assets/css/custom-2.0.css">
+        <link rel="stylesheet" href="slick/slick.css">
     </head>
     <body>
 
@@ -79,17 +80,41 @@
             </div>
         </nav>  
         <!-- End of navigation -->
+
+
       
         <div class="content-area error-page" style="background-color: #FCFCFC; padding-bottom: 55px;">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
-                        <h2 class="error-title">404</h2>
+                <div class="row justify-content-center ">
+                    <div class="col-md-10 col-sm-12 text-center page-title">
+                        <h2 class="error-title">hehehe</h2>
                         <p>Sorry, the page you requested may have been moved or deleted</p>
                     </div>
                 </div> 
 
-                <div class="row">
+                <div class="row my-4">
+                    <div class="col">
+                        <div class="kaya">
+                            <div class="slicked1">
+                                <div class="slickers"><img src="assets/img/demo/property-1.jpg" alt=""></div>
+                                <div class="slickers"><img src="assets/img/demo/property-2.jpg" alt=""></div>
+                                <div class="slickers"><img src="assets/img/demo/property-3.jpg" alt=""></div>
+                                <div class="slickers"><img src="assets/img/demo/property-5.jpg" alt=""></div>
+                                <div class="slickers"><img src="assets/img/demo/property-6.jpg" alt=""></div>
+                            </div>
+                            <div class="slicked2 row">
+                                <div class="slickers col-md-2"><img class="img-fluid" src="assets/img/demo/property-1.jpg" alt=""></div>
+                                <div class="slickers col-md-2"><img src="assets/img/demo/property-2.jpg" alt=""></div>
+                                <div class="slickers col-md-2"><img src="assets/img/demo/property-3.jpg" alt=""></div>
+                                <div class="slickers col-md-2"><img src="assets/img/demo/property-5.jpg" alt=""></div>
+                                <div class="slickers col-md-2"><img src="assets/img/demo/property-6.jpg" alt=""></div>
+                                <div class="slickers col-md-2"><img src="assets/img/demo/property-6.jpg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="display: none;">
                     <form action="">
                         <div class="row">
                             <div class="col-md-3">
@@ -274,6 +299,7 @@
 
         <script src="assets/js/icheck.min.js"></script>
         <script src="assets/js/price-range.js"></script>
+        <script src="slick/slick.min.js"></script>
 
         <script>
             console.log("work fool work");
@@ -281,6 +307,28 @@
             var kayaList = new List('location', {
                 valueNames: ['name']
             })
+
+
+            $(document).ready(function() {
+                $(".slicked1").slick({
+                    slidesToShow: 1,
+                    asNavFor: '.slicked2',
+                    arrows: false
+                });
+
+                $(".slicked2").slick({
+                    slidesToShow: 4,
+                    asNavFor: ".slicked1",
+                    autoplay: true,
+                    arrows: false,
+                    centerMode: true,
+                    focusOnSelect: true,
+                    autoplaySpeed: 3000,
+                    focusOnSelect: true
+                });
+            });
+
+            console.log("It worked, right?");
         </script>
 
     </body>

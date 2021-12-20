@@ -30,3 +30,33 @@
 .opasity {
 	background: rgba(0, 0, 0, .5) !important;
 }
+
+/* Customised Image gallery */
+
+.slicked1 {
+	height: 400px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slicked1 img {
+	margin: auto;
+	width: 100%;
+}
+
+.slicked2 {
+	margin: .5em auto;
+	width: 500px;
+}
+
+.slicked2 .slickers {
+	margin: 0 .5em;
+}
+
+.slicked2 img {
+	width: 100% !important;
+}
+
+.kaya {
+	min-height: 500px;
+}

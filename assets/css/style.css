@@ -1126,7 +1126,7 @@ page-header
 ======================================================*/
 .page-head{
     background: #494C53 url("../../assets/img/page-header.jpg") 
-        no-repeat scroll center top / cover;
+        no-repeat scroll center center / cover;
     color:#FFF;
     position: relative;
     min-height: 140px;
@@ -2036,9 +2036,7 @@ single property page
 .prp-style-2 .single-property-wrapper{
     margin-top: -35px;
 }
-.prp-style-1 .single-property-wrapper{
-    margin-top: -35px;
-}
+
 .single-property-header {
     padding-bottom: 25px;
     position: relative;
