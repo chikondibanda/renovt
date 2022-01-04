@@ -1146,6 +1146,11 @@ page-header
 .content-area{
     background-color: #FCFCFC; padding-bottom: 55px;
 }
+
+.content-area.single-property {
+    padding-top: 0 !important;
+}
+
 .layout-switcher a{
     font-size: 25px;
     color:#777;
@@ -1545,6 +1550,7 @@ Asside widgets CSS
 .testimonial{
     position: relative;
     margin-top: 50px; 
+    margin-left: .5em;
 }
 .testimonial .item {
     padding-bottom: 67px;
@@ -1559,7 +1565,7 @@ Asside widgets CSS
 .client-face > img {
     border: 5px solid #fff;
     border-radius: 50%;
-    height: 80px;
+    width: 60px;
 }
 .testimonial .owl-theme .owl-controls .owl-page span{
     background: #a78874
@@ -1953,7 +1959,7 @@ recent-property-widget
 }
 .recent-property-widget ul li .property-seeker {    
     position: absolute;
-    top: 42px;
+    bottom: 4em;
     width: 100%;
     right: 0px;
     color: #FFF;
@@ -2138,6 +2144,8 @@ single property page
 .dealer-name{
     margin-top: 6px;
     margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
 }
 .dealer-name a {
     color: #626262;
@@ -2412,10 +2420,13 @@ count-area
     cursor: pointer;
 }
 .asks-first:hover{
-    background-color: #8C8C8C; 
+    background-color: #6c584c;
+    transition: background-color .1s linear; 
 }
 .asks-first:hover .asks-first-circle{
     background-color: #8C8C8C; 
+    transition: background-color .06s linear; 
+
 }
 .asks-first-circle {
     float: left;
