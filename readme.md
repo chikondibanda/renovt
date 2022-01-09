@@ -1,8 +1,7 @@
-Hello,
 
-thank you for purchusing GARO ESTATE Template. 
- 
-
+# RENOVT #
+Renovate Real Estate, revised 😎
+[https://chikondibanda.github.io/renovt]
 
 
 ## PAGES INCLUDED ##

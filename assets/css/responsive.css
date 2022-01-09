@@ -136,7 +136,7 @@
         margin-bottom: 15px;
     }
     .slider-content p{
-        font-size: 12px;
+        font-size: 16px;
         margin-bottom: 18px;
     }
     .search-form{
@@ -451,8 +451,9 @@
     }
 
     .slider-content p {
-        font-size: 12px;
+        font-size: 22px;
         margin-bottom: 50px;
+        color: #FFF;
     }
     .search-form {
         padding: 20px 30px;
@@ -611,7 +612,7 @@
         margin-bottom: 15px;
     }
     .slider-content p {
-        font-size: 12px;
+        font-size: 14px;
         margin-bottom: 50px;
     }
     .search-form {
