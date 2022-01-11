@@ -263,6 +263,7 @@ margin: 35px auto;
 }
 .wizard-card .nav-pills > li{
     text-align: center;
+    display: flex;
 }
 .wizard-card .nav-pills > li a {
     border: 0 !important;
@@ -270,7 +271,13 @@ margin: 35px auto;
     background-color: #999999;
     color: #FFFFFF !important;
     font-size: 12px;
+    width: 100%;
 }
+
+.wizard-card .nav-pills li a.active {
+    background: #bd9a84;
+}
+
 .wizard-card.ct-wizard-green .nav-pills > li.active a{
     background-color: #05ae0e;
 }

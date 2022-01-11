@@ -61,3 +61,13 @@
 	min-height: 500px;
 	overflow-x: hidden;
 }
+
+textarea#message {
+	height: 100px;
+} 
+
+#map {
+	background: url(../img/map-long.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
