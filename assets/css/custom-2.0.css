@@ -3,6 +3,10 @@
 	font-size: 12px;
 }
 
+.slider-area h1 {
+	text-transform: uppercase;
+}
+
 .action-btn {
 	background: #75533c;
 	border-radius: 2px;

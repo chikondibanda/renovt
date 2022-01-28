@@ -67,7 +67,7 @@
         margin-bottom: 15px;
     }
     .proerty-th {
-        margin-left: 0px;
+        /*margin-left: 0px;*/
     }
 
     .header-call p span{
@@ -131,9 +131,10 @@
         display: block;
         margin: 0 auto;
     }
-    .slider-content h2{
-        font-size: 21px;
+    .slider-content h1{
+        font-size: 36px;
         margin-bottom: 15px;
+        width: auto;
     }
     .slider-content p{
         font-size: 16px;
@@ -607,9 +608,10 @@
         margin-left: 0px;
         padding: 35px;
     }
-    .slider-content h2 {
+    .slider-content h1 {
         font-size: 30px;
         margin-bottom: 15px;
+        width: 80%;
     }
     .slider-content p {
         font-size: 14px;
