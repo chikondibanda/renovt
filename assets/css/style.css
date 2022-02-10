@@ -76,7 +76,7 @@ p {
 */
 
 .navbar-brand img{
-    height: 70px;
+    height: 60px;
     width: auto;
 }
 
@@ -804,9 +804,7 @@ label small{
     border-radius: 4px;
     box-shadow: none;
 }
-.navbar .container{
-    padding-top: 15px
-}
+
 .navbar-default {
     background-image: none;
     background-color: #FFF;
