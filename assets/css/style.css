@@ -2886,6 +2886,7 @@ padding-top: 7px;
     font-size: 13px;
     padding-bottom: 20px;
 }
+
 .footer h4{
     color: #717171;
     font-weight: 400;
@@ -2897,6 +2898,25 @@ padding-top: 7px;
     margin-bottom: 0px;
     letter-spacing: 2px;
 }
+
+.serv-h4{
+    color: #717171;
+    font-weight: 400;
+    margin-top: 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 35px;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+}
+
+
+.services-icons {
+    width: 100px;
+}
+
+
+
 .footer h4 span{
     border-bottom: 3px solid #a78874;
 }
@@ -2908,6 +2928,16 @@ padding-top: 7px;
     position: relative;
     top: -2px;
 }
+
+.service-title-line {
+    width: 100px;
+    height: 2px;
+    background: #916b52 ;
+    margin: 0px auto 33px;
+    position: relative;
+    top: -2px;
+}
+
 .footer h5{
     color: #fff;
     margin-top: 20px;
