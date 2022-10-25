@@ -7,6 +7,19 @@
 	text-transform: uppercase;
 }
 
+.form-select {
+    border-radius: 0 !important; 
+    font-size: inherit;
+}
+
+.form-select:focus {
+    border-width: 2px !important;
+    box-shadow: 0 0 0 0.15rem rgb(13 110 253 / 25%);
+}
+
+.new-submit {
+    width: 100% !important;
+}
 .action-btn {
 	background: #75533c;
 	border-radius: 2px;
@@ -70,9 +83,6 @@ textarea#message {
 	height: 100px;
 } 
 
-#map {
-
-}
 
 .pdl-100 {
 	padding-left: 0;
