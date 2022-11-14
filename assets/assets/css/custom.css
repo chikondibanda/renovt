@@ -1,0 +1,25 @@
+
+/*
+  CUSTOMISATION | TWEAKS | ALTERATIONS
+  Zonse Zosinthidwa
+
+  1. Home
+    a. Border for Input
+    b. Search Icon on homepage 1st forms
+    
+
+*/
+
+
+.located {
+  position: relative;
+}
+
+.located i {
+  position: absolute;
+  top: 1.1em;
+  left: 1em;
+}
+
+
+
