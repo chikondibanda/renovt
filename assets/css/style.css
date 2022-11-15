@@ -1,5 +1,5 @@
  
-/* Css For Realshed */
+/* Css For Renovate */
 
 /************ TABLE OF CONTENTS ***************
 1. Fonts
@@ -66,6 +66,18 @@
 ====================================================================
 
  ***/
+
+
+@font-face { 
+  font-family: Figtree; 
+  src: url('../fonts/figtree/otf/Figtree-Regular.otf'); 
+}
+
+@font-face { 
+  font-family: Figtree; 
+  font-weight: bold; 
+  src: url('../fonts/figtree/otf/Figtree-Bold.otf'); 
+}
 
 
 body {
